@@ -1,11 +1,18 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=VT323&display=swap");
 body {
-  background-color: rgb(223, 255, 250);
-  background-image: url("/assets/immagini/background.png");
-  background-size: 150vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position-x: 100px;
+  background-color: grey;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2em;
+  position: relative;
+  background-image: url(/assets/immagini/background-L0sPc5ROD-transformed.png);
+}
+body ul {
+  padding: 0;
+}
+body ul li {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .logo {
@@ -20,8 +27,37 @@ body {
 
 .dropdown-menu {
   background-color: rgb(255, 245, 253);
+  font-family: "VT323", monospace;
+  font-size: 1.5em;
 }
 
 h1 {
   color: #3951dc;
+}
+
+main {
+  width: 90vw;
+}
+
+#carouselExampleControls {
+  height: 30em;
+  aspect-ratio: 16/12;
+}
+
+footer {
+  display: flex;
+  width: 100vw;
+  background: rgb(202, 240, 243);
+  background: linear-gradient(90deg, rgb(202, 240, 243) 52%, rgb(208, 153, 255) 100%);
+  border-top: 1px solid rgb(60, 1, 50);
+  position: fixed;
+  bottom: 0;
+}
+footer ul {
+  display: flex;
+}
+footer ul li {
+  padding-left: 10px;
+  margin: 20px;
+  list-style-type: square;
 }/*# sourceMappingURL=app.css.map */

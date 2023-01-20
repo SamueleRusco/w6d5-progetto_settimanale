@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+
+  width: 100vw;
+  background: rgb(202, 240, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(202, 240, 243, 1) 52%,
+    rgba(208, 153, 255, 1) 100%
+  );
+  border-top: 1px solid rgb(60, 1, 50);
+  position: fixed;
+  bottom: 0;
+  ul {
+    display: flex;
+
+    li {
+      padding-left: 10px;
+      margin: 20px;
+      list-style-type: square;
+    }
+  }
+}
