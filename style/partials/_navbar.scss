@@ -1,0 +1,12 @@
+.navbar {
+  background: rgb(202, 240, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(202, 240, 243, 1) 52%,
+    rgba(208, 153, 255, 1) 100%
+  );
+  border-bottom: 1px solid rgb(60, 1, 50);
+}
+.dropdown-menu {
+  background-color: $pink-lace;
+}
