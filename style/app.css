@@ -6,7 +6,6 @@ body {
   font-size: 1.2em;
   position: relative;
   background-image: url(/assets/immagini/background-L0sPc5ROD-transformed.png);
-  overflow-x: hidden;
 }
 body ul {
   padding: 0;
@@ -29,35 +28,20 @@ body ul li {
 .dropdown-menu {
   background-color: rgb(255, 245, 253);
   font-family: "VT323", monospace;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 h1 {
   color: #3951dc;
-  font-size: 3.5em;
 }
 
-h2 {
-  color: #3951dc;
-  font-size: 2em;
+main {
+  width: 90vw;
 }
 
-p {
-  font-size: 0.7em;
-}
-
-span {
-  font-size: 0.7em;
-  color: gray;
-}
-
-h5 {
-  font-size: 1.3em;
-  line-height: 0.6;
-}
-
-header p {
-  font-size: 1.1em;
+#carouselExampleControls {
+  height: 30em;
+  aspect-ratio: 16/12;
 }
 
 footer {
@@ -76,8 +60,4 @@ footer ul li {
   padding-left: 10px;
   margin: 20px;
   list-style-type: square;
-}
-
-main {
-  max-width: 100vw;
 }/*# sourceMappingURL=app.css.map */
